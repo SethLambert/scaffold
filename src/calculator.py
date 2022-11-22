@@ -23,3 +23,15 @@ def subtractIntegers(num1: int, num2: int) -> int:
         int - num1 minus num 2
     """
     return num1 - num2    
+
+def multiplyIntegers(num1: int, num2: int) -> int:
+    """multiplies num1 by num2.
+    
+    Args:
+        num1 (int) - the first number to multiply 
+        num2 (int) - the second number to multiply 
+
+    Returns:
+        int - num1 times num 2
+    """
+    return num1 * num2    

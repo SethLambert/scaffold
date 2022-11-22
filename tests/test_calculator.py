@@ -1,7 +1,7 @@
 """test for our calculator module"""
 import pytest
 
-from src.calculator import addIntegers, subtractIntegers
+from src.calculator import addIntegers, subtractIntegers, multiplyIntegers
 
 num1: int = 10
 num2: int = 5
@@ -13,4 +13,7 @@ def test_add_numbers() -> None:
 def test_subtract_numbers() -> None:
     """Testing subtracting integers"""
     assert subtractIntegers(num1, num2) == 5
-    
+
+def test_multiply_numbers() -> None:
+    """Testing subtracting integers"""
+    assert multiplyIntegers(num1, num2) == 50   
